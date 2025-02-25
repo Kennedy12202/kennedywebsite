@@ -1,0 +1,128 @@
+@keyframes identifier {
+   50% {background-image:linear-gradient(#d4a0a7,#5da271)}
+   100% {background-image:linear-gradient(#5da271,#d4a0a7)}
+    
+}
+
+
+body {
+    background-image: linear-gradient( to right, #e3e3e3, #d4a0a7);
+    height:auto;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.Introduction {
+    animation-name: identifier; 
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    background-image: linear-gradient(#d4a0a7, #5da271);
+    font-size: 20px;
+    padding: 200px;
+    position: sticky;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+    text-orientation: upright;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.Name:hover {
+    color: #d26cb0
+}
+
+.Sub-Titles {
+    padding: 10px;
+    text-align: center;
+    border: 1px white solid;
+    background-color: #8f3928;
+    color: whitesmoke;
+
+}
+
+
+.Sub-Sub-Titles {
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  color: #8f3928;
+  text-orientation: upright;
+  padding: none;
+  text-align: left;
+  border-inline-start: solid;
+  border-width: 10px;
+  border-color: #898989;
+  
+
+}
+
+footer {
+    background-color: #d4a0a7;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    color: #5da271;
+}
+  
+img {
+    border-radius: 8px;
+    max-height: 180px;
+}
+
+img:hover {
+    max-height: 300px;
+    max-width: 1000px;
+}
+
+
+h2 {
+    color:white solid;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.Cyber{
+    background-color: white;
+    border-style:dashed;
+    padding: 10px;
+    padding-left: 40px;
+    text-align: center;
+    position: sticky;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.Public {
+    background-color: white;
+    border-style:dashed;
+    padding: 10px;
+    padding-left: 40px;
+    text-align: center;
+    position: sticky;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.Card {
+    background-color: white;
+    border-style:dashed;
+    padding: 10px;
+    padding-left: 40px;
+    text-align: center;
+    position: sticky;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.Philo {
+    background-color: white;
+    border-style:dashed;
+    padding: 10px;
+    padding-left: 40px;
+    text-align: center;
+    position: sticky;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
